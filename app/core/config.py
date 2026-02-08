@@ -20,7 +20,7 @@ class Settings:
     
     # MongoDB settings
     MONGODB_URL: str = os.getenv("MONGODB_URL", "mongodb://localhost:27017")
-    MONGODB_DB_NAME: str = "waypoint_db"
+    MONGODB_DB_NAME: str = os.getenv("MONGODB_DB_NAME", "waypoint_db")
     
     # Gemini API settings
     GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
