@@ -33,22 +33,34 @@ app = FastAPI(
 # CORS Configuration - IMPORTANT!
 # This allows your frontend to communicate with the backend
 # ============================================
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=[
+#         "http://localhost:3000",      # Frontend dev server (Vite default)
+#         "http://localhost:5173",      # Alternative Vite port
+#         "http://127.0.0.1:3000",      # Alternative localhost
+#         "http://127.0.0.1:5173",      # Alternative localhost
+#         "https://waypoint-pi.vercel.app/",
+#         "https://*.vercel.app",
+#         # Add your production frontend URL here when deploying:
+#         # "https://waypoint.vercel.app",
+#         # "https://your-custom-domain.com",
+#     ],
+#     allow_credentials=True,
+#     allow_methods=["*"],  # Allows all methods (GET, POST, etc.)
+#     allow_headers=["*"],  # Allows all headers
+# )
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000",      # Frontend dev server (Vite default)
-        "http://localhost:5173",      # Alternative Vite port
-        "http://127.0.0.1:3000",      # Alternative localhost
-        "http://127.0.0.1:5173",      # Alternative localhost
-        "https://waypoint-pi.vercel.app/",
-        "https://*.vercel.app",
-        # Add your production frontend URL here when deploying:
-        # "https://waypoint.vercel.app",
-        # "https://your-custom-domain.com",
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "https://waypoint-jy2mvlsxi-rshahs-projects.vercel.app"
     ],
     allow_credentials=True,
-    allow_methods=["*"],  # Allows all methods (GET, POST, etc.)
-    allow_headers=["*"],  # Allows all headers
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
