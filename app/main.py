@@ -40,6 +40,8 @@ app.add_middleware(
         "http://localhost:5173",      # Alternative Vite port
         "http://127.0.0.1:3000",      # Alternative localhost
         "http://127.0.0.1:5173",      # Alternative localhost
+        "https://waypoint-pi.vercel.app/",
+        "https://*.vercel.app",
         # Add your production frontend URL here when deploying:
         # "https://waypoint.vercel.app",
         # "https://your-custom-domain.com",
