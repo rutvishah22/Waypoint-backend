@@ -8,3 +8,4 @@ pydantic-settings==2.5.2
 playwright==1.48.0
 requests==2.31.0
 pytrends==4.9.2
+tavily-python
