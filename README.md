@@ -185,7 +185,7 @@ Create a `.env` file:
 ```env
 GEMINI_API_KEY=your_gemini_api_key
 TAVILY_API_KEY=your_tavily_api_key
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/
+MONGODB_URI=your_mongodb_uri
 ```
 
 ### Run Server
