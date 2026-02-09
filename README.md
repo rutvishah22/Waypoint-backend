@@ -264,8 +264,7 @@ parsed = json.loads(raw)
 
 - 🌐 **Live Demo:** [https://waypoint-pi.vercel.app/](https://waypoint-pi.vercel.app/)
 - 💻 **Frontend Repo:** [https://github.com/rutvishah22/waypoint-frontend](https://github.com/rutvishah22/waypoint-frontend)
-- 📝 **Devpost Submission:** [https://devpost.com/software/waypoint](https://devpost.com/software/waypoint)
-- 🎥 **Demo Video:** [https://youtube.com/watch?v=YOUR_VIDEO_ID](https://youtube.com/watch?v=YOUR_VIDEO_ID)
+- 🎥 **Demo Video:** [https://youtu.be/GhqKyxDsOa0?si=Ge_WVxVSgM2DyN7J](https://youtu.be/GhqKyxDsOa0?si=Ge_WVxVSgM2DyN7J)
 
 ---
 
