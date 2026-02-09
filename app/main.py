@@ -54,9 +54,8 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        # "http://localhost:5173",
-        # "http://localhost:3000",
-        "https://waypoint-jy2mvlsxi-rshahs-projects.vercel.app"
+        "https://waypoint.vercel.app",
+        "https://waypoint-jy2mvlsxi-rshahs-projects.vercel.app",
     ],
     allow_credentials=False,
     allow_methods=["*"],
